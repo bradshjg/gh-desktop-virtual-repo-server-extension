@@ -13,8 +13,22 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onStartupFinished"
+		"onCommand:github-desktop-virtual-server.startServer"
 	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "github-desktop-virtual-server.startServer",
+				"title": "Start virtual repo server",
+				"category": "GH Desktop"
+			},
+			{
+				"command": "github-desktop-virtual-server.stopServer",
+				"title": "Stop virtual repo server",
+				"category": "GH Desktop"
+			}
+		]
+	},
 	"main": "./dist/extension.js",
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
