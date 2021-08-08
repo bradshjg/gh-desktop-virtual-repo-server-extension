@@ -28,12 +28,13 @@ A relatively recent version of git is required, it should track upstream GitHub 
 
 ## Known Issues
 
-TODO let's keep this one as a placeholder :smile:
+* Requires manual cleanup of the port forwarding when "GitHub Desktop: Stop virutal repo server" is called. This
+  is due to the lack of an API for managing forwarded ports (hopefully this will change in the future). This is
+  also only relevant when a user has multiple Codespaces projects open simultaneously and wnat to control which repo
+  is available in GitHub Desktop (which currently lacks support for multiple virtual repo servers).
 
 ## Release Notes
 
 ### 0.0.1
 
-Initial release of ...
-
-TODO gotta release _something_ at some point :smile:
+Initial release
