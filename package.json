@@ -10,17 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:github-desktop-virtual-server.helloWorld"
+		"onStartupFinished"
 	],
 	"main": "./dist/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "github-desktop-virtual-server.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
 		"compile": "webpack",
