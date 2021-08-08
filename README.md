@@ -5,9 +5,20 @@ VS Code extension to launch a server capable of handling client requests for [vi
 The idea is that instead of requiring the user to install the dependencies (Node/Express/FS-Extra) and run it standalone, VS
 Code can run it via the extension host (since it already has the Node runtime laying around for us :smile:).
 
-## Features
+## Installation
 
-No user-facing features, yet! And maybe not ever!
+Visit the "Releases" page in GitHub and download the latest ".vsix" extension.
+
+In VS Code, use the command pallete (e.g. `Cmd+Shift+P`) to run "Extensions: Install from VSIX..." and install the
+extension.
+
+You'll need to visit the extensions tab in VS Code to "Install in Codespaces".
+
+Once installed, use the command pallete to run "GitHub Desktop: Start virtual repo server".
+
+Now you can add a virtual repo in GitHub Desktop.
+
+Sigh...this should be easier.
 
 ## Requirements
 
