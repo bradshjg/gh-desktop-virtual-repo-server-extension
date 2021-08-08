@@ -3,6 +3,7 @@
 	"displayName": "github-desktop-virtual-server",
 	"description": "Supports using remote (virtual) repos in GitHub Desktop in Codespaces",
 	"version": "0.0.1",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
